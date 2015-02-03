@@ -1,0 +1,9 @@
+timeout: 30
+pid: tmp/thin.pid
+log: log/thin.log
+#environment: production
+environment: development
+servers: 1
+daemonize: false
+rackup: config.ru
+port: 4040
